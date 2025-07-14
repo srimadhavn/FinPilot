@@ -156,81 +156,6 @@ Plans adapt based on:
 - **Pattern Recognition**: Regex-based extraction
 - **Optimization**: Algorithm-based portfolio balancing
 
----
-
-## 📁 **Project Structure**
-
-```
-FinPilot/
-├── 📁 frontend/          # Next.js React application
-│   ├── 📁 app/          # App router pages
-│   ├── 📁 components/   # Reusable UI components
-│   ├── 📁 lib/          # Utility functions
-│   └── 📁 public/       # Static assets
-├── 📁 backend/           # FastAPI Python backend
-│   ├── 📄 main.py       # Application entry point
-│   ├── 📄 models.py     # Pydantic data models
-│   ├── 📄 ai_service.py # AI integration service
-│   └── 📄 investment_plan_service.py # Investment logic
-├── 📄 README.md         # This file
-└── 📄 .gitignore        # Git ignore rules
-```
-
----
-
-## 🌈 **Features Showcase**
-
-### **Intelligent Conversation**
-```
-User: "I can invest around $1000 monthly"
-AI: "Great! I understand you can invest $1000 per month. 
-     What's your risk tolerance - conservative, moderate, or aggressive?"
-```
-
-### **Smart Extraction**
-- ✅ Extracts "$1000" from "I can invest around $1000 monthly"
-- ✅ Identifies "conservative" from "I prefer safe investments"
-- ✅ Recognizes "retirement" from "planning for my golden years"
-
-### **Comprehensive Planning**
-- 📊 **Risk Breakdown**: Visual pie charts showing portfolio allocation
-- 💰 **Investment Options**: Detailed fund recommendations with rationale
-- 📈 **Performance Projections**: Expected returns and timelines
-- 🎯 **Goal Alignment**: Strategies matched to specific objectives
-
----
-
-## 🔒 **Security & Privacy**
-
-- **API Key Security**: Environment-based configuration
-- **Data Privacy**: No persistent storage of sensitive information
-- **Input Validation**: Comprehensive request validation
-- **Error Handling**: Graceful error management and user feedback
-
----
-
-## 🚧 **Development Roadmap**
-
-### **Phase 1: Core Platform** ✅
-- [x] AI-powered conversation system
-- [x] Investment plan generation
-- [x] Portfolio visualization
-- [x] Risk assessment algorithms
-
-### **Phase 2: Enhanced Features** 🚧
-- [ ] User authentication system
-- [ ] Portfolio performance tracking
-- [ ] Real-time market integration
-- [ ] Mobile application
-
-### **Phase 3: Advanced AI** 🔮
-- [ ] Predictive market analysis
-- [ ] Advanced risk modeling
-- [ ] Automated rebalancing
-- [ ] Tax optimization strategies
-
----
-
 ## 🤝 **Contributing**
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
@@ -240,14 +165,6 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 **Acknowledgments**
 
@@ -262,16 +179,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 **Support & Contact**
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/srimadhavn/FinPilot/issues)
-- **Email**: support@finpilot.com
 - **Documentation**: [Full API Documentation](http://localhost:8000/docs)
 
 ---
-
-<div align="center">
-  <h3>🌟 Star this repo if you find it helpful! 🌟</h3>
-  <p>Made with ❤️ by <a href="https://github.com/srimadhavn">Srimadhav N</a></p>
-</div>
-
----
-
-**FinPilot** - *Empowering Financial Freedom Through AI*
